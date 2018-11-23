@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16;
+		nextID=20;
 	};
 	class Camera
 	{
-		pos[]={6307.9355,254.96011,8157.9434};
-		dir[]={0.11685755,-0.96723497,0.2253937};
-		up[]={0.4451946,0.25388268,0.85868847};
-		aside[]={0.88777745,5.8091246e-007,-0.46027669};
+		pos[]={6307.9355,293.00436,8157.9434};
+		dir[]={-0.07277368,-0.49703246,-0.86467671};
+		up[]={-0.041684102,0.86773044,-0.49528593};
+		aside[]={-0.99647981,7.1086106e-007,0.083866805};
 	};
 };
 binarizationWanted=0;
@@ -10649,7 +10649,7 @@ class Mission
 			position[]={2239.9453,4.1295543,4631.8525};
 			name="civ_car_1_1";
 			type="Empty";
-			angle=56.974915;
+			angle=56.974911;
 			id=688;
 		};
 		class Item162
@@ -27653,10 +27653,10 @@ class Mission
 		class Item727
 		{
 			dataType="Trigger";
-			position[]={-44.758999,4.4880896,2038.611};
+			position[]={-85.255928,4.9892578,2054.8694};
 			class Attributes
 			{
-				condition="call{this}";
+				condition="call{this && (player in thisList) && (vehicle player == player) && alive player}";
 				onActivation="call{player setDamage 100;}";
 				sizeB=3000;
 				repeatable=1;
@@ -27666,16 +27666,16 @@ class Mission
 			};
 			id=2670;
 			type="EmptyDetectorAreaR50";
-			atlOffset=-4.7683716e-007;
+			atlOffset=0.00019264221;
 		};
 		class Item728
 		{
 			dataType="Trigger";
-			position[]={2832.4119,46.08382,-259.46899};
-			angle=1.5762304;
+			position[]={2832.4121,46.083843,-259.46899};
+			angle=1.5762242;
 			class Attributes
 			{
-				condition="call{this}";
+				condition="call{this && (player in thisList) && (vehicle player == player) && alive player}";
 				onActivation="call{player setDamage 100;}";
 				sizeB=3000;
 				repeatable=1;
@@ -27689,10 +27689,10 @@ class Mission
 		class Item729
 		{
 			dataType="Trigger";
-			position[]={5332.2725,22.126709,2475.4722};
+			position[]={5332.272,22.126669,2475.4719};
 			class Attributes
 			{
-				condition="call{this}";
+				condition="call{this && (player in thisList) && (vehicle player == player) && alive player}";
 				onActivation="call{player setDamage 100;}";
 				sizeB=3000;
 				repeatable=1;
@@ -27702,7 +27702,6 @@ class Mission
 			};
 			id=2672;
 			type="EmptyDetectorAreaR50";
-			atlOffset=-3.8146973e-006;
 		};
 		class Item730
 		{
@@ -27710,7 +27709,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4021.8718,30,2195.5515};
-				angles[]={-0,3.1732876,0};
+				angles[]={0,3.1732876,0};
 			};
 			side="Empty";
 			flags=4;
