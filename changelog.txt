@@ -11,3 +11,6 @@ Lumine 25/11/2018
 -Ajouts de konec pour la beauté de la map
 Boyington 04/12/2018
 -Amélioration de la map en général
+Lumine 04/12/2018
+-Ajouts de stops
+-arrangement du pont
