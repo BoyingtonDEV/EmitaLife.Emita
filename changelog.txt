@@ -9,3 +9,5 @@ Lumine 25/11/2018
 -Changement des ATM
 -Remplacements des lumieres par des stops
 -Ajouts de konec pour la beauté de la map
+Boyington 04/12/2018
+-Amélioration de la map en général
